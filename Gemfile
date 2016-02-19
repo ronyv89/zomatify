@@ -11,11 +11,5 @@ group :linux do
   gem "libnotify"
 end
 
-group :windows do
-  gem "wdm", "~> 0.0.3"
-  gem "win32console"
-  gem "rb-notifu"
-end
-
 # Specify your gem's dependencies in zomatify.gemspec
 gemspec
